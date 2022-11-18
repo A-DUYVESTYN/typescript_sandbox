@@ -7,7 +7,7 @@
 // The overall run time complexity should be O(log (m+n)).
 
 
-const findMedianSortedArrays = function(nums1, nums2) {
+const findMedianSortedArrays = function(nums1: number[], nums2: number[]): number {
   const m = nums1.length
   const n = nums2.length
   const len = m + n
